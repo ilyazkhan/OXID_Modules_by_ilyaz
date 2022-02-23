@@ -1,0 +1,29 @@
+{
+    "name": "jidexstudio/jxpysioxpresstheme",
+    "description": "Adavcned theme modifications for Category dropdown and Discount",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "theme"],
+    "homepage": "https://www.physioexpress.de",
+    "authors": [
+        {
+            "name": "Physio Express",
+            "email": "ilyaskhan900@gmail.com"
+        }
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "jidexstudio/jxpysioxpresstheme"
+        }
+    },
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JidexStudio\\JxPysioXpressTheme\\": "../../../source/modules/jidexstudio/jxpysioxpresstheme"
+        }
+    }
+}

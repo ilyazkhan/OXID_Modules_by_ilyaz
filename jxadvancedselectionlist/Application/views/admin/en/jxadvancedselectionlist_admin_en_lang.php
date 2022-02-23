@@ -1,0 +1,37 @@
+<?php
+$sLangName = 'English';
+
+$aLang = [
+    'charset' => 'UTF-8',
+    'jxadvancedselectionlist' => 'Advanced Selection List',
+    'SHOP_MODULE_GROUP_jxadvancedselectionlist_main' => 'Main',
+    'SHOP_MODULE_jxadvancedselectionlist_main_showexpandbutton' => 'Show expand button',
+    'SHOP_MODULE_jxadvancedselectionlist_main_hidden_options_bilateral_relations' => 'Use bilateral relations for hidden options',
+    'jxadvancedselectionlist_options' => 'Selection List Options',
+    'jxadvancedselectionlist_hiddenoptions' => 'Hidden Options',
+    'jxadvancedselectionlist_optionsimagesets' => 'Selection List Options Images',
+    'jxadvancedselectionlist_variantsdata' => 'Variants Additional Data',
+    'JXADVANCEDSELECTIONLIST_DESCRIPTION' => 'Description',
+    'JXADVANCEDSELECTIONLIST_ICON' => 'Icon',
+    'JXADVANCEDSELECTIONLIST_IMAGE' => 'Product Image (If set this image will replace first product image on detail page)',
+    'JXADVANCEDSELECTIONLIST_SAVE' => 'Save',
+    'JXADVANCEDSELECTIONLIST_SELECT' => 'Select',
+    'JXADVANCEDSELECTIONLIST_OPTION_IMAGES' => 'Images related to this selection list option and selected product',
+    'JXADVANCEDSELECTIONLIST_OPTION_IMAGES_HELP' => 'You can combine up to 8 different options (including selected one above)',
+    'JXADVANCEDSELECTIONLIST_ADD_NEW_IMAGE' => 'Add new image',
+    'JXADVANCEDSELECTIONLIST_COMBINATION_IMAGE' => 'Combination image',
+    'JXADVANCEDSELECTIONLIST_COMBINATION_DESC' => 'Combination description',
+    'JXADVANCEDSELECTIONLIST_DELETE' => 'Delete',
+    'JXADVANCEDSELECTIONLIST_DELETE_CONFIRM' => 'Are you sure?',
+    'JXADVANCEDSELECTIONLIST_ALL_PRODUCTS' => 'All products',
+    'JXADVANCEDSELECTIONLIST_HIDDEN_OPTIONS' => 'You can select up to 4 selections and their options that will be automatically hidden when the option above is selected',
+    'JXADVANCEDSELECTIONLIST_HIDDEN_OPTIONS_HELP' => '<b>NOTICES:</b><br/>1. Relations are bilateral. This means that if you hide option2 when options1 is selected, then options 1 will be hidden when options2 is selected! <br/> 2. If selection list is selected but no options are choosen - it means "hide all options"! In this case no need to adjust this selectbox each time you add the new option but bilateral edition will be locked as editing visibility from other side will break "select all" logic! <br/> 3. OXID expects at least one options will be selected for each selection on the FE and if all options are hidden - it will choose first option in anyway. So, please, ensure that for such selections list first options is called like "-", "None" etc',
+    'JXADVANCEDSELECTIONLIST_HIDDEN_OPTIONS_HELP_MINI' => '<b>NOTICES:</b><br/>1. If selection list is selected but no options are choosen - it means "hide all options"! In this case no need to adjust this selectbox each time you add the new option.<br/> 2. OXID expects at least one options will be selected for each selection on the FE and if all options are hidden - it will choose first option in anyway. So, please, ensure that for such selections list first options is called like "-", "None" etc',
+    'JXADVANCEDSELECTIONLIST_ERROR_DUPLICATE_SELECTIONS' => 'A duplicated selection lists where selected. Please, use different selections!',
+    'JXADVANCEDSELECTIONLIST_HIDDEN_OPTIONS_LOCKES_FOUND' => 'At least one related hidden selection list is locked as it was configured from other side as "Select All"!',
+    'JXADVANCEDSELECTIONLIST_USE_STEP_BY_STEP_SELECTION' => 'Use step by step selection',
+    'JXADVANCEDSELECTIONLIST_SELECTION_OPTION_TITLE' => 'Selection Option Title',
+    'JXADVANCEDSELECTIONLIST_SELECTION_OPTIONS_DATA' => 'Selection Options Data',
+    'JXADVANCEDSELECTIONLIST_VARIANTS_DATA_NOT_AVAILABLE' => 'Variants data can be configured for parent product only!',
+    'JXADVANCEDSELECTIONLIST_SHARE_DISCOUNTS_BETWEEN_VARIANTS' => 'Share discounts between variants with the same art number<br/> (If checked then discount prices configured for the first variant will be automatically migrated to another variants with the same art number)'
+];

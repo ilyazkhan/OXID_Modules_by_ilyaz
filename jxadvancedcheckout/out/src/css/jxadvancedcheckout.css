@@ -1,0 +1,211 @@
+/*------------ACCESSORIES BLOCK-----------*/
+#basketModal .accessoires-block .flexslider .slides>li form {
+    position: relative;
+}
+#basketModal .accessoires-block .flexslider .slides>li form:after {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #f2f2f2;
+    position: absolute;
+    right: -20px;
+    top: 0;
+}
+
+#basketModal .accessoires-block .btn {
+    border-radius: 0;
+    font-size: 1.2em;
+    height: 3em;
+    width: 100%;
+}
+
+#basketModal .accessoires-block .more-info {
+    display: block;
+    margin-top: 10px;
+}
+
+#basketModal .accessoires-block input.amount {
+    font-size: 1.2em;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+#basketModal .accessoires-block [type="submit"] {
+    display: none;
+}
+
+#basketModal .accessoires-block .accessoires-block-header {
+    background-color: #f2f2f2;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#basketModal .accessoires-block .picture img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#basketModal .accessoires-block .flexslider {
+    margin-bottom: 0;
+}
+
+#basketModal .last-added-item {
+    padding: 0 10px;
+    display: flex;
+    width: 100%;
+}
+
+#basketModal .last-added-item .item-image {
+    flex: 0 0 200px;
+    width: 200px;
+    max-width: 30%;
+}
+
+#basketModal .last-added-item .item-image img {
+    max-width: 100%;
+}
+
+#basketModal .last-added-item .item-description {
+    flex: 1 1 auto;
+    white-space: normal;
+    padding-left: 15px;
+}
+
+#basketModal .last-added-item .item-description .title {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#basketModal .last-added-item .item-description .artnum {
+    margin-bottom: 10px;
+    font-size: 1.0em;
+    color: #777;
+}
+
+#basketModal .last-added-item .item-description .price-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#basketModal .last-added-item .item-description .price-wrapper .price {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #044996;
+}
+
+#basketModal .last-added-item .item-description .price-wrapper .price .without-discount{
+    text-decoration: line-through;
+}
+
+
+#basketModal .last-added-item .item-description .price-wrapper .price .with-discount{
+    color: #a94442;
+}
+
+#basketModal .last-added-item .item-description .price-wrapper .price .saving-notice {
+    font-size: 14px;
+    color: initial;
+}
+
+#basketModal .last-added-item .item-description .price-wrapper .price .saving-notice .saving-notice__price,
+#basketModal .last-added-item .item-description .price-wrapper .price .saving-notice__currency{
+    color: #4cae4c;
+}
+
+/*------------TRENDING PRODUCT-----------*/
+.cl-basket .trending-product {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    display: none;
+    position: relative;
+}
+
+.cl-basket .trending-product .trending-product-header {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 20px;
+    top: 10px;
+    z-index: 9;
+}
+
+.cl-basket .trending-product .trending-product-header span{
+    background: #4cae4c;
+    font-size: 1.0em;
+    padding: 3px 5px;
+    text-transform: uppercase;
+}
+
+.cl-basket .trending-product form{
+    border: 1px solid rgba(0,0,0,.125);
+    display: block;
+    padding-top: 20px;
+}
+
+.cl-basket .trending-product .listDetails {
+    background-color: #f2f2f2!important;
+    padding: 10px;
+}
+
+.cl-basket .trending-product input.amount {
+    font-size: 1.5em;
+    height: 3em;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+.cl-basket .trending-product .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 1.5em;
+    height: 3em;
+    width: 100%;
+}
+
+.cl-basket .trending-product .more-info {
+    display: block;
+    margin-top: 10px;
+}
+
+.cl-basket .trending-product .picture {
+    width: 100%;
+    float: none;
+    padding: 10px;
+}
+
+.cl-basket .trending-product .picture img{
+    margin: 0 auto;
+}
+
+.cl-basket .trending-product + .lineBox {
+    float: none;
+    width: 100%;
+}
+
+.cl-basket .trending-product + .lineBox + div {
+    clear: both;
+}
+
+@media (min-width: 992px) {
+    .cl-basket .trending-product {
+        float: left;
+        width: 20%;
+        padding-right: 20px;
+        display: block;
+    }
+
+    .cl-basket .trending-product + .lineBox {
+        float: left;
+        width: 80%;
+    }
+}

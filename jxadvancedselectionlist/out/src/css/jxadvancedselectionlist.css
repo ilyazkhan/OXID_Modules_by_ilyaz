@@ -1,0 +1,223 @@
+.jx-selectorsBox .jx-option-group {
+    border-top: 1px solid #E7E7E7;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.jx-selectorsBox .jx-option-group-label {
+    padding: 20px 0;
+    font-weight: bold;
+    flex: 0 0 100%;
+}
+
+.jx-selectorsBox .option-wrap {
+    flex: 1 0 50%;
+    padding: 5px;
+    min-width: 250px;
+    max-width: 50%;
+}
+
+.jx-selectorsBox .option-wrap.disabled label{
+    background-color: #e7e7e7;
+    cursor: not-allowed;
+}
+
+.jx-selectorsBox .option-wrap.disabled label:hover{
+    border-color: transparent;
+}
+
+.jx-selectorsBox .option-wrap.disabled label:after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+    opacity: 0.5;
+}
+
+.jx-selectorsBox .option-wrap [type="radio"] {
+    display: none;
+}
+
+.jx-selectorsBox .option-wrap [type="radio"]:checked + label,
+.jx-selectorsBox .option-wrap label:hover {
+    background-color: #E7E7E7;
+    border-color: #8BC34A;
+}
+
+.jx-selectorsBox .option-wrap [type="radio"]:checked + label .selected-marker {
+    display: inline-block;
+}
+
+.jx-selectorsBox .option-wrap label {
+    display: block;
+    margin: 0;
+    padding: 15px 40px 15px 30px;
+    position: relative;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.jx-selectorsBox .option-wrap label.with-icon {
+    padding-left: 80px;
+}
+
+.jx-selectorsBox .option-wrap .option-icon {
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.jx-selectorsBox .option-wrap .selected-marker {
+    display: none;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8BC34A;
+    font-size: 18px;
+}
+
+.jx-selectorsBox .option-wrap .open-description-modal {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.jx-selectorsBox .jx-selection-modal img {
+    max-width: 100%;
+}
+
+.jx-selectorsBox .jx-selection-modal .modal-header {
+    position: relative;
+}
+
+.jx-selectorsBox .jx-selection-modal .modal-body {
+    padding: 15px;
+}
+
+.jx-selectorsBox .jx-selection-modal .close {
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12px;
+}
+
+.jx-selectorsBox .jx-selection-modal .option-description {
+    padding: 20px 0;
+}
+
+.step-by-step-selection-enabled #variants .selectbox {
+    display: none;
+}
+
+.step-by-step-selection-enabled #variants .selectbox:first-child {
+    display: block;
+}
+
+.step-by-step-selection-enabled #variants .selectbox:first-child ul.dropdown-menu.vardrop li.disabled{
+    display: block;
+}
+
+#variants .dropdown-wrapper {
+    display: block;
+}
+
+#variants ul.dropdown-menu.vardrop {
+    position: static;
+    border-top: 1px solid #E7E7E7;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+}
+
+#variants ul.dropdown-menu.vardrop li {
+    flex: 1 0 50%;
+    padding: 5px;
+    min-width: 250px;
+    max-width: 50%;
+}
+
+#variants ul.dropdown-menu.vardrop li.disabled {
+    display: none;
+}
+
+#variants ul.dropdown-menu.vardrop li a {
+    display: none;
+    margin: 0;
+    padding: 15px 40px 15px 30px;
+    position: relative;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 100%;
+    align-items: center;
+
+}
+
+#variants ul.dropdown-menu.vardrop li a.with-icon {
+    padding-left: 80px;
+}
+
+#variants ul.dropdown-menu.vardrop li a img {
+    width: 70px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+#variants ul.dropdown-menu.vardrop li a[data-selection-id]{
+    display: flex;
+}
+
+#variants ul.dropdown-menu.vardrop li a:hover,
+#variants ul.dropdown-menu.vardrop li a:focus,
+#variants ul.dropdown-menu.vardrop li a.active {
+
+    background-color: #E7E7E7;
+    border-color: #8BC34A;
+    color: initial;
+}
+
+#variants ul.dropdown-menu.vardrop li a.active:before {
+    display: inline-block;
+    content: "\f058";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8BC34A;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    z-index: 99;
+}
+
+#variants .dropdown-wrapper>button {
+    display: none;
+}

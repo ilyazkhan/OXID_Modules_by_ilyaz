@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxmanageprod">
+            <SUBMENU id="mxarticles" cl="article" list="article_list">
+                <TAB id="jxadvancedselectionlist_variantsdata" cl="jxadvancedselectionlist_variantsdata"/>
+            </SUBMENU>
+            <SUBMENU id="mxsellist" cl="selectlist" list="selectlist_list">
+                <TAB id="jxadvancedselectionlist_options" cl="jxadvancedselectionlist_options" />
+                <TAB id="jxadvancedselectionlist_optionsimagesets" cl="jxadvancedselectionlist_optionsimagesets" />
+                <TAB id="jxadvancedselectionlist_hiddenoptions" cl="jxadvancedselectionlist_hiddenoptions" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
